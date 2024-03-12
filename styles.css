@@ -224,3 +224,74 @@
  .sobre-nosotros .right-pilar p{
     margin-bottom: 20px;
  }
+
+ /* --------------------------------------- */
+
+.contacto {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    margin-top: 80px;
+  }
+  .contacto .contacto-left {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  .contacto-left h3 {
+    color: #1E5DB2;
+    font-size: 1.3em;
+  }
+  .contacto-left p {
+    font-size: 1em;
+  }
+  .formulario {
+    width: 50%;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .btn-envio {
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #b10c72;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    width: 200px;
+  }
+  .contacto-parrafo{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+  .icons{
+    color: #fff;
+  }
+  .iconos{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+  }
+  .iconos img{
+    width: 50px;
+  }
+  footer{
+    padding: 10px 40px;
+    font-size: .8em;
+  }
