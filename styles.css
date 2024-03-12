@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  body {
+    background-color: #fff;
+    max-width: 100vw;
+  }
+  /* Header */
+  .menu {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu .logo img {
+    width: 200px;
+  }
+  ul.menu {
+    list-style: none;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+  }
+  ul.menu li {
+    display: inline-block;
+  }
+  ul.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: .9em;
+  }
+  ul.menu a:hover {
+    color: #b10c72;
+  }
+
+/* Primera vista */
+
+.first-view{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/assets/img/fondo.webp) no-repeat;
+    background-size: cover;
+    padding: 0 40px;
+    color: white;
+    font-size: 1.5em;
+}
+.first-view .text{
+    width: 60%;
+}
+.first-view .text h1{
+    display: inline;
+    transition: 1s;
+    font-size: 1.8em;
+}
+.first-view .text h2{
+    transition: 1s;
+}
+.first-view .text h1:hover{
+    color: #b10c72;
+}
+.first-view .contenedor{
+    width: 100%;
+}
+.first-view .btn-first{
+    margin-top: 40px;
+}
+.first-view .btn-first a{
+    text-decoration: none;
+    background-color: #b10c72;
+    padding:10px 15px;
+    color: #fff;
+    border-radius: 40px;
+    font-size: .8em;
+    transition: 1s;
+}
+.first-view .btn-first a:hover{
+    background-color: #fff;
+    color: #b10c72;
+}
+
+/* Seccion de servicios */
+.servicios{
+    background-color: black;
+    color: #fff ;
+}
+
+.servicios h2{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+.servicios p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.servicio-uno{
+    background: url(/assets/img/servicios/1.jpg) no-repeat;
+    background-size: cover;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.textos{
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio-uno h3{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.servicio-uno p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.servicio-uno a{
+    background-color: #fff;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    transition: 1s;
+}
+.servicio-uno a:hover{
+    background-color: #b10c72;
+    color: #fff;
+}
+.parte-dos{
+    background: url(/assets/img/servicios/2.jpg) no-repeat;
+    margin-top: 10px;
+}
+.parte-tres{
+    background: url(/assets/img/servicios/3.jpg) no-repeat;
+    margin-top: 10px;
+}
+.parte-cuatro{
+    background: url(/assets/img/servicios/4.jpg) no-repeat;
+    margin-top: 10px;
+}
+.parte-cinco{
+    background: url(/assets/img/servicios/5.jpg) no-repeat;
+    margin-top: 10px;
+}
+.parte-seis{
+    background: url(/assets/img/servicios/6.jpg) no-repeat;
+    margin-top: 10px;
+}
