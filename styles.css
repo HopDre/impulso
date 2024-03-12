@@ -95,12 +95,7 @@
     text-align: center;
     padding-top: 80px;
     margin-bottom: 20px;
-}
-.servicios p{
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 80px;
+    font-size: 3em;
 }
 .servicio-uno{
     background: url(/assets/img/servicios/1.jpg) no-repeat;
@@ -160,3 +155,31 @@
     background: url(/assets/img/servicios/6.jpg) no-repeat;
     margin-top: 10px;
 }
+
+/* Nosotros */
+ .nosotros{
+    display: flex;
+    background-color: black;
+    align-items: center;
+ }
+ .nosotros .left{
+    width: 50%;
+    color: #fff;
+    padding: 0 40px;
+ }
+ .nosotros .left h3{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #b10c72;
+ }
+ .nosotros .left p{
+    width: 80%;
+    font-size: 1.2em;
+ }
+ .nosotros .right{
+    width: 50%;
+    padding: 20px 40px;
+ }
+ .nosotros .right img{
+    width: 90%;
+ }
